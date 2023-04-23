@@ -1,0 +1,183 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    height: 820px;
+    background-image: url("xd.jpeg");
+    background-size: cover;
+    background-attachment: fixed ;
+    clip-path: polygon(50% 0%, 100% 0, 100% 90%, 50% 100%, 0 90%, 0 0);
+}    
+.upper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.port{
+    color: white;
+    font-size: 60px;
+    padding-left: 50px;
+    letter-spacing: 3px;
+    padding-top: 30px;
+}
+.menu {
+    padding-right: 70px ;
+    padding-top: 30px;
+}
+.menu a{
+    color: white;
+    background-color: #ffffff;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px;
+    padding: 5px 7px 5px 7px;
+    border-radius: 3px;
+    letter-spacing: 1px;
+    opacity: 0.6;
+}
+.menu a:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+.bg-text{
+    margin-top: 150px;
+    margin-left: 145px;
+    margin-right: 145px;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    opacity: 0.6;
+    border-radius: 15px;
+}
+.text{
+    margin: 10%;
+    font-weight: bolder;
+    color: #000000;
+}
+.text p{
+    font-size: 30px;
+}
+.text h1{
+    font-size: 70px;
+}
+.about{
+    background-image: url("/Users/mansi/Desktop/Personal Website/lines.jpeg");
+    background-size: cover;
+    padding: 90px 70px 70px 70px ;
+    background-attachment: fixed;
+    clip-path: polygon(50% 10%, 100% 0, 100% 100%, 50% 100%, 0 100%, 0 0);
+}
+.abt{
+    color: white;
+    text-align: center;
+    font-size: 60px;
+}
+.about-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.right-col{
+    flex-basis: 50%;
+}
+.right-col img{
+    margin-top: 30px;
+    height: 450px;
+    width: 350px;
+    padding-left: 250px;
+}
+.left-col{
+    flex-basis: 50%;
+}
+.left-col p{
+    font-size: 30px;
+    background-color: #ffffff;
+    opacity: 0.6;
+    padding: 5%;
+}
+button{
+    margin-top: 10px;
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+    background: #e42a00;
+    border: none;
+    cursor: pointer;
+}
+.skills{
+    background-image: url("bg2.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+.skill{
+    font-size: 60px;
+    margin-left: 400px;
+    padding-top: 20px;
+}
+.sks{
+    padding-left: 300px;
+    padding-bottom: 100px;
+    padding-top: 50px;
+    font-size: 30px;
+}
+@media only screen and (max-width:770px){
+    .port{
+        font-size: 30px;
+        padding-left: 10px;
+        letter-spacing: 3px;
+        padding-top: 30px;
+    }
+    .menu {
+        padding-right: 10px
+    }
+    .menu a{
+        font-size: 15px;
+        margin: 10px;
+    }
+    .bg-text{
+        margin: 200px 80px 0 80px;
+    }
+    .text p{
+        font-size: 20px;
+    }
+    .text h1{
+        font-size: 60px;
+    }
+    .abt{
+        font-size: 40px;
+        margin-top: 20px;
+    }
+    .about-row{
+        display: inline;
+        flex-wrap: wrap;
+    }
+    .right-col img{
+        height: 250px;
+        width: 200px;
+        padding-left: 70px;
+    }
+    .left-col p{
+        margin-top: 20px;
+        font-size: 20px;
+    }
+    button{
+        font-size: 10px;
+        padding: 5px;
+    }
+    .skill{
+        font-size: 40px;
+        margin-left: 200px;
+        padding-top: 20px;
+    }
+    .sks{
+        padding-left: 130px;
+        padding-bottom: 100px;
+        padding-top: 50px;
+        font-size: 20px;
+    }
+}
